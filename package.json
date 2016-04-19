@@ -2,13 +2,13 @@
   "name": "url-resolver",
   "version": "1.0.0",
   "description": "",
-  "main": "url-resolver.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThibaultFriedrich/url-resolver.git"
+    "url": "git+https://github.com/ThibaultFriedrich/shortened-url-resolver.git"
   },
   "keywords": [
     "shorter",
@@ -17,9 +17,9 @@
   "author": "Thibault Friedrich",
   "license": "LGPL-3.0",
   "bugs": {
-    "url": "https://github.com/ThibaultFriedrich/url-resolver/issues"
+    "url": "https://github.com/ThibaultFriedrich/shortened-url-resolver/issues"
   },
-  "homepage": "https://github.com/ThibaultFriedrich/url-resolver#readme",
+  "homepage": "https://github.com/ThibaultFriedrich/shortened-url-resolver#readme",
   "dependencies": {
     "request": "^2.72.0"
   },

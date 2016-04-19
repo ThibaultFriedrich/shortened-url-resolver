@@ -1,4 +1,4 @@
-# url-resolver
+# shortened-url-resolver
 
 Find final url from shortened url. 
 
