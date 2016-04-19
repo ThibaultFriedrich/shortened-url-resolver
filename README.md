@@ -27,4 +27,4 @@ For now, I have only tested following services :
 * ift.tt
 * tinyurl.com
 
-**Let me know if some others also works.**
+**Let me know if some others also work.**
