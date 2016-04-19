@@ -1,0 +1,30 @@
+{
+  "name": "url-resolver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "url-resolver.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThibaultFriedrich/url-resolver.git"
+  },
+  "keywords": [
+    "shorter",
+    "url"
+  ],
+  "author": "Thibault Friedrich",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ThibaultFriedrich/url-resolver/issues"
+  },
+  "homepage": "https://github.com/ThibaultFriedrich/url-resolver#readme",
+  "dependencies": {
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
