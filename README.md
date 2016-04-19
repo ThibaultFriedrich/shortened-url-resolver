@@ -1,6 +1,6 @@
 # url-resolver
 
-## Description
+## What is it ?
 
 Find final url from short url. Manage services : 
 
@@ -9,7 +9,7 @@ Find final url from short url. Manage services :
 * ow.ly
 * ift.tt
 
-## How to install
+## How to install ?
 
     npm install url-resolver --save
 
