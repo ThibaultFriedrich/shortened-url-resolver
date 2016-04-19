@@ -1,7 +1,5 @@
 # url-resolver
 
-## What is it ?
-
 Find final url from short url. Manage services : 
 
 * goo.gl
@@ -13,3 +11,14 @@ Find final url from short url. Manage services :
 
     npm install url-resolver --save
 
+## Easy to use
+
+
+    var urlResolver = require('url-resolver');
+    urlResolver('http://bit.ly/1SY2yXL', function(error, finalUrl){
+        if(error){
+            console.log(error);
+        } else {
+            console.log(finalUrl); // finalUrl == https://github.com/ThibaultFriedrich/url-resolver
+        }
+    });
