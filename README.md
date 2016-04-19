@@ -1,6 +1,6 @@
 # url-resolver
 
-Find final url from short url. 
+Find final url from shortened url. 
 
 ## How to install ?
 
@@ -19,10 +19,12 @@ Find final url from short url.
 
 ## Services tested 
 
-For now, I have only tested services : 
+For now, I have only tested following services : 
 
 * goo.gl
 * bit.ly
 * ow.ly
 * ift.tt
 * tinyurl.com
+
+**Let me know if some others also works.**
