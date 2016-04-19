@@ -1,7 +1,7 @@
 var urlResolver = require('../url-resolver');
 var expect = require('chai').expect;
 
-describe('Shorter urls', function(){
+describe('Short urls', function(){
     it('bit.ly', function(done){
         urlResolver('http://bit.ly/1Sd9m5Z', function(error, newUrl){
             expect(error).to.be.null;
@@ -29,6 +29,24 @@ describe('Shorter urls', function(){
             expect(newUrl).to.be.equal('http://www.isaca.org/About-ISACA/Press-room/News-Releases/2016/Pages/ISACA-New-Cybersecurity-Boot-Camp-Coming-to-New-York.aspx');
             done();
         });
+    });
+    it('tinyurl.com', function(done){
+        urlResolver('http://tinyurl.com/KindleWireless', function(error, newUrl){
+            expect(error).to.be.null;
+            expect(newUrl).to.be.equal('http://www.amazon.com/Kindle-Wireless-Reading-Display-Globally/dp/B003FSUDM4/ref=amb_link_353259562_2?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=center-10&pf_rd_r=11EYKTN682A79T370AM3&pf_rd_t=201&pf_rd_p=1270985982&pf_rd_i=B002Y27P3M');
+            done();
+        });
+    });
+});
+
+describe('Not short urls', function(){
+    
+    it('google.fr', function(done){
+        urlResolver('https://www.google.fr', function(error, newUrl){
+            expect(error).to.be.equal(200);
+            done();
+        });
+        
     });
 });
 
