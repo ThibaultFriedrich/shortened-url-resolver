@@ -34,6 +34,11 @@ describe('Short urls', function(){
             shortenedUrl: 'http://dlvr.it/L5CVTw',
             name: 'dlvr.it',
             url: 'http://www.securityweek.com/google-tightens-security-rules-chrome-extensions?utm_source=dlvr.it&utm_medium=twitter'
+        },
+        {
+            shortenedUrl: 'http://nr.tn/1WEhn7s',
+            name: 'nr.tn',
+            url: 'https://community.norton.com/en/blogs/norton-protection-blog/10-facts-about-todays-cybersecurity-landscape-you-should-know?om_ext_cid=hho_ext_social__SYMGlobal_RTM_TWITTER_Norton Protection Blog&linkId=23617224'
         }
     ];
 
