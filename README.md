@@ -26,5 +26,6 @@ For now, I have only tested following services :
 * ow.ly
 * ift.tt
 * tinyurl.com
+* dlvr.it
 
 **Let me know if some others also work.**
