@@ -1,4 +1,4 @@
-# shortened-url-resolver
+# shortened-url-resolver [![Build Status](https://travis-ci.org/thibaultfriedrich/shortened-url-resolver.svg?branch=master)](https://travis-ci.org/thibaultfriedrich/shortened-url-resolver) 
 
 Find final url from shortened url.
 
